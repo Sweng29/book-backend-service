@@ -1,4 +1,4 @@
-package com.book.io.dto;
+package com.book.io.dto.filter;
 
 import lombok.*;
 
@@ -7,8 +7,8 @@ import lombok.*;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class PageDTO {
+public class PageFilter {
 
     private Long pageId;
-
+    private Long bookId;
 }

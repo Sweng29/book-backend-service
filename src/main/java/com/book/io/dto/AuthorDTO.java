@@ -10,12 +10,12 @@ import java.util.List;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class BookDTO {
+public class AuthorDTO {
 
-    private Long bookId;
-    private String bookName;
-    @JsonIgnore
-    private List<AuthorDTO> authors;
+    private Long id;
+    private String firstName;
+    private String lastName;
+    private List<BookDTO> bookDTOList;
     private Boolean isActive;
 
 }
